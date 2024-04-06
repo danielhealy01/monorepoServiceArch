@@ -1,7 +1,7 @@
 {
-  "name": "practice",
+  "name": "nodetemplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "node js template",
   "main": "index.js",
   "type": "module",
   "scripts": {
