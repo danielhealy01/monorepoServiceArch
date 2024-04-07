@@ -17,12 +17,6 @@ dist/
 build/
 public/
 
-# Compiled output
-*.js
-*.js.map
-*.d.ts
-*.d.ts.map
-
 # Logs
 logs
 *.log
