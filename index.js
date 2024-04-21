@@ -1,4 +1,7 @@
 import dotenv from 'dotenv'
+import main from './bin/apiGateway.js'
 dotenv.config({ path: `.env.${process.env.NODE_ENV || 'dev'}` })
 
-console.log(process.env.TEST)
+main()
+
+console.log(`Env: ${process.env.NODE_ENV}`)

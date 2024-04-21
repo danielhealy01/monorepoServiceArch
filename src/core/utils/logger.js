@@ -1,11 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-// ************************ CONFIGURE LOG PATH ************************
-
 const logFilePath = path.join(__dirname, '../../logs/app.log');
-
-// ************************ CONFIGURE LOG PATH ************************
 
 export function info(message) {
   _writeToLog('INFO', message);
